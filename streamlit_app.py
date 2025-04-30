@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 import requests
 
 
-api_key = st.secrets["API_KEY"]
+GOOGLE_API_KEY = st.secrets["API_KEY"]
 
 
 def check_api_key():
